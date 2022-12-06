@@ -5,5 +5,9 @@
 
 /* Застосувати стилі до псевдоелемента .box :: after у разі ховера по елементу .box */
 .box:hover::after {
-  color: tomato;
+  display: block;
+  width: 100px;
+  height: 100px;
+  content: '';
+  background-color: tomato;
 }
